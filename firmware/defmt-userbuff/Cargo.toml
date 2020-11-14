@@ -1,0 +1,15 @@
+[package]
+authors = ["twitchyliquid64", "The Knurling-rs developers"]
+categories = ["embedded", "no-std"]
+description = "Store defmt log messages in a buffer for transmission by user code"
+edition = "2018"
+keywords = ["knurling", "defmt", "defmt-transport"]
+license = "MIT OR Apache-2.0"
+name = "defmt-userbuff"
+readme = "README.md"
+repository = "https://github.com/knurling-rs/defmt"
+version = "0.1.0"
+
+[dependencies]
+defmt = { path = "../..", version = "0.1.0" }
+cortex-m = "0.6.3"
